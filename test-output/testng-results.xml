@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17283" started-at="2019-12-12T15:12:39Z" finished-at="2019-12-12T15:12:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17283" started-at="2019-12-12T15:12:39Z" finished-at="2019-12-12T15:12:57Z">
+      <class name="Register.RegisterTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Register.RegisterTest@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="3592" started-at="2019-12-12T20:42:39Z" finished-at="2019-12-12T20:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register()[pri:0, instance:Register.RegisterTest@1bce4f0a]" name="Register" duration-ms="3390" started-at="2019-12-12T20:42:43Z" finished-at="2019-12-12T20:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Register.RegisterTest@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-12T20:42:46Z" finished-at="2019-12-12T20:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Register.RegisterTest@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="2098" started-at="2019-12-12T20:42:46Z" finished-at="2019-12-12T20:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getData()[pri:1, instance:Register.RegisterTest@1bce4f0a]" name="getData" duration-ms="8188" started-at="2019-12-12T20:42:48Z" finished-at="2019-12-12T20:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Register.RegisterTest@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-12-12T20:42:57Z" finished-at="2019-12-12T20:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Register.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
