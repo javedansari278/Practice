@@ -9,20 +9,27 @@ import org.testng.annotations.AfterMethod;
 
 public class NewTest {
   @Test
+  WebDriver driver; // Instant Variables.
   public void Register() {
+	  
+	  driver.get("http://newtours.demoaut.com/mercuryregister.php"); // Main Test
+	  driver.manage().window().maximize();
 	  
   }
   @BeforeMethod
   public void beforeMethod() {
 	  
+	  //Before method Test
 	  System.setProperty("Webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32\\chromedriver.exe");
-	  WebDriver driver = new ChromeDriver();
-	  driver.get("http://newtours.demoaut.com/mercuryregister.php");
-	  driver.manage().window().maximize();
+	   driver = new ChromeDriver();
+	  
   }
 
   @AfterMethod
   public void afterMethod() {
+	  
+	  driver.quit();
+	  //Closing browser
   }
 
 }
